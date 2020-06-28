@@ -4,8 +4,8 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-setlocal spell
-set spelllang=en
+
+set relativenumber
 inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 
 
